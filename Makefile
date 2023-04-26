@@ -9,3 +9,6 @@ lint:
 
 test:
 	poetry run pytest --cov=postman_auto_collection --cov-report=term-missing tests
+
+generate_languages:
+	poetry run python scripts/compile_language.py
